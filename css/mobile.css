@@ -1,0 +1,36 @@
+body{
+ background:#f80;
+}
+.side-bar{
+ position:relative;
+ width:100%;
+ float:none;
+}
+.side-bar .nav,
+.side-bar .tag-list{
+  text-align:center;
+}
+.main{
+  width:100%;
+  float:none;
+  padding-left:10px;
+  padding-right:10px;
+}
+.main .artile-list{
+  margin-right:0;
+  margin-right:20px;
+}
+label{
+  float:right;
+  font-size:18px;
+  font-weight:800;
+  color:rgba(255,255,255,.9);
+}
+#menu-checkbox:checked~.nav,
+#menu-checkbox:checked~.tag-list{
+  display:block;
+}
+.side-bar .nav,
+	  .side-bar .tag-list{
+	   display:none;
+	  }
